@@ -8,7 +8,6 @@
 body {
     background-color: #478eff;
     width: 100%;
-    touch-action: none;
 }
 
 .title {
@@ -69,7 +68,7 @@ body {
         font-size: 60px;
     }
     .title {
-        width: 80%;
+        width: 70%;
         font-size: 20px
     }
 }
