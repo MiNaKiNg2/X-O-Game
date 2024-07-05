@@ -57,7 +57,7 @@ body {
 
 @media (max-width: 750px) {
     .game {
-        width: 600px;
+        width: 500px;
     }
     .game .box {
         width: 100px;
