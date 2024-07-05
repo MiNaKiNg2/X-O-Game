@@ -8,6 +8,7 @@
 body {
     background-color: #478eff;
     width: 100%;
+    touch-action: none;
 }
 
 .title {
