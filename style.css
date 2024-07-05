@@ -7,6 +7,7 @@
 
 body {
     background-color: #478eff;
+    width: 100%;
 }
 
 .title {
@@ -26,6 +27,7 @@ body {
 
 .container {
     height: 100%;
+    width: 100%;
 }
 
 .game {
