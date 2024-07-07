@@ -34,6 +34,8 @@ function SG() {
                     e.innerHTML = turn;
                     check();
                     if (draw()) {
+                        scoreBack[4] = scoreBack[4] + 1;
+                        localStorage.setItem("player", JSON.stringify(scoreBack));
                         gameover = true
                         title.innerHTML = "Draw";
                         setInterval(() => {
@@ -105,8 +107,6 @@ function draw() {
             return false; // If any box is empty, it's not a draw
         }
     }
-    scoreBack[4] = scoreBack[4] + 1;
-    localStorage.setItem("player", JSON.stringify(scoreBack));
     return true; // All boxes filled means it's a draw
 }
 mute.onclick = function() {
