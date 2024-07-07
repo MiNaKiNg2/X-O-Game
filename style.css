@@ -27,6 +27,7 @@ body {
 
 .container {
     height: 100%;
+    width: 100%;
 }
 
 .game {
@@ -68,7 +69,49 @@ body {
         font-size: 60px;
     }
     .title {
-        width: 70%;
+        width: 80%;
         font-size: 20px
     }
+}
+
+.Buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+button {
+    margin: 10px auto;
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #002054;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.player {
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
 }
